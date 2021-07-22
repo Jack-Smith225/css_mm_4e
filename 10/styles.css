@@ -102,3 +102,37 @@ nav a {
     transition: transform .5s,
     background-color 1s ease-in .5s;
 }
+
+/**
+定义动画的过程 logo为动画的名称
+ */
+@-webkit-keyframes logo {
+    from {
+        -webkit-transform: rotate(0) scale(.5);
+        left: 120%;
+    }
+    50% {
+        -webkit-transform: rotate(-720deg) scale(.5);
+    }
+    to {
+        -webkit-transform: rotate(0) scale(1);
+    }
+}
+
+@keyframes logo {
+    from {
+        transform: rotate(0) scale(.5);
+        left: 120%;
+    }
+    50% {
+        transform: rotate(-720deg) scale(.5);
+    }
+    to {
+        transform: rotate(0) scale(1);
+    }
+}
+
+.logo {
+    -webkit-animation: logo 3s; /*要应用的动画名称, 持续时间*/
+    animation: logo 3s; /*要应用的动画名称, 持续时间*/
+}
