@@ -6,6 +6,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'PTSans';
     src: url('fonts/PTSansItalic.woff2') format('woff2'),
@@ -13,6 +14,7 @@
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'PTSans';
     src: url('fonts/PTSansBold.woff2') format('woff2'),
@@ -20,6 +22,7 @@
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'PTSans';
     src: url('fonts/PTSansBoldItalic.woff2') format('woff2'),
@@ -27,8 +30,8 @@
     font-weight: bold;
     font-style: italic;
 }
-/*end::自定义字体*/
 
+/*end::自定义字体*/
 
 /* reset browser styles */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
@@ -70,10 +73,10 @@ table {
 html {
     font-family: PTSans, Arial, sans-serif;
     font-size: 62.5%; /*设置基准字号*/
-    background: rgb(225,238,253) url("../images/bg_body.png") repeat-x; /*repeat-x意味着 背景图片只在水平方向重复*/
+    background: rgb(225, 238, 253) url("../images/bg_body.png") repeat-x; /*repeat-x意味着 背景图片只在水平方向重复*/
 }
 
-.main{
+.main {
     max-width: 740px;
     margin: 0 auto;
     padding: 0 10px;
@@ -85,7 +88,7 @@ html {
     color: rgb(249, 212, 120);
     font-family: "Arial Black", Arial, Helvetica, sans-serif;
     font-size: 4em;
-    text-shadow: 4px 4px 6px rgba(0,0,0,.75);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, .75);
 }
 
 .main h2 {
