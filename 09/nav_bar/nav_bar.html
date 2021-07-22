@@ -51,7 +51,11 @@
             margin: 0;
             padding: 0;
             list-style: none;
-            width: 175px; /*??display:block??, ????????, ????????*/
+        }
+
+        .mainNav li {
+            float: left;
+            width: 12em;
         }
 
         .mainNav a {
@@ -66,11 +70,11 @@
             background-image: url("images/nav.png");
             background-repeat: no-repeat;
             background-position: 0 2px;
-            border-bottom: none;
+            border-right: none;
         }
 
         .mainNav li:last-of-type a {
-            border-bottom: 1px dashed #999999;
+            border-right: 1px dashed #999999;
         }
 
         .mainNav a:hover {
@@ -86,7 +90,7 @@
         .project .projectLink,
         .horoscope .horoscopeLink {
             background-color: #ffffff;
-            background-position: 97% 100%;
+            background-position: 3px 100%;
             padding-right: 15px;
             padding-left: 30px;
             font-weight: bold;
