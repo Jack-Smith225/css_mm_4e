@@ -176,6 +176,8 @@ footer {
     clear: both;
 }
 
-
-
+.pageWrapper {
+    max-width: 1200px;
+    margin: 0 auto; /*上下 左右*/
+}
 
